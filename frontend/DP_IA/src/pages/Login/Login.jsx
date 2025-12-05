@@ -13,24 +13,21 @@ function Login() {
 
   return (
     <div className="login-container">
-      <form className="login-form" onSubmit={handleSubmit}>
-        <h2>Login</h2>
-        <input
-          type="email"
-          placeholder="Correo electrónico"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          required
-        />
-        <input
-          type="password"
-          placeholder="Contraseña"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          required
-        />
-        <button type="submit">Ingresar</button>
-      </form>
+      <div className="login-inter-container position1">
+        <div className="login-inter2-container">
+          <div className="login-inter3-container tamano1">
+
+          </div>
+        </div>
+      </div>
+      <div className="login-inter-container position2">
+        <div className="login-inter2-container">
+          <div className="login-inter3-container tamano2">
+            
+          </div>
+        </div>
+      </div>
+      
     </div>
   );
 }

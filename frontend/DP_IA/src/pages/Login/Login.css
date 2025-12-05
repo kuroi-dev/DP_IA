@@ -4,8 +4,53 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, #007bff, #00c6ff);
+  margin: 0;
+  border: red solid 2px;
+  background-image: url();
+  font-family: Arial, sans-serif;
 }
+
+
+.login-inter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  border: red solid 2px;
+}
+
+.position1{
+  align-items: flex-end;
+}
+.position2{
+  align-items: flex-start;
+}
+
+.login-inter2-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 80%;
+  border: red solid 2px;
+}
+
+.login-inter3-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 80%;
+  border: red solid 2px;
+}
+.tamano1{
+  height: 40vh;
+}
+.tamano2{
+  height: 60vh;
+}
+
 
 /* Caja del formulario */
 .login-form {
