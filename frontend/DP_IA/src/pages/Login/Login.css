@@ -37,7 +37,7 @@
 }
 
 .login-inter3-container {
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
 
@@ -49,6 +49,21 @@
 }
 .tamano2{
   height: 60vh;
+}
+
+.login-inter4-container {
+  border: red solid 2px;
+  width: 100%;
+  
+}
+.tamano1-1{
+  height: 45%;
+}
+.tamano1-2{
+  height: 35%;
+}
+.tamano1-3{
+  height: 20%;
 }
 
 
