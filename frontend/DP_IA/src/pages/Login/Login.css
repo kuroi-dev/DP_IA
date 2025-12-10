@@ -1,111 +1,29 @@
 /* Fondo general */
 .login-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
   margin: 0;
-  border: red solid 2px;
   background-image: url();
   font-family: Arial, sans-serif;
 }
 
-
-.login-inter-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
-  width: 100%;
+.colortest {
   border: red solid 2px;
 }
 
-.position1{
-  align-items: flex-end;
+.limitCol{
+  max-width: 600px;
 }
-.position2{
-  align-items: flex-start;
-}
-
-.login-inter2-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 70vh;
-  width: 80%;
-  border: red solid 2px;
-}
-
-.login-inter3-container {
-  display: block;
-  justify-content: center;
-  align-items: center;
-
-  width: 80%;
-  border: red solid 2px;
-}
-.tamano1{
-  height: 40vh;
-}
-.tamano2{
-  height: 60vh;
-}
-
-.login-inter4-container {
-  border: red solid 2px;
-  width: 100%;
-  
-}
-.tamano1-1{
-  height: 45%;
-}
-.tamano1-2{
-  height: 35%;
-}
-.tamano1-3{
-  height: 20%;
-}
-
 
 /* Caja del formulario */
 .login-form {
-  background: #ffffff;
   padding: 2rem;
   border-radius: 8px;
-  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
-  width: 300px;
   text-align: center;
+  border: red solid 2px ;
 }
 
 /* Título */
 .login-form h2 {
   margin-bottom: 1.5rem;
   color: #333;
-}
-
-/* Inputs */
-.login-form input {
-  width: 100%;
-  padding: 0.8rem;
-  margin-bottom: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 1rem;
-}
-
-/* Botón */
-.login-form button {
-  width: 100%;
-  padding: 0.8rem;
-  background: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.login-form button:hover {
-  background: #0056b3;
 }
