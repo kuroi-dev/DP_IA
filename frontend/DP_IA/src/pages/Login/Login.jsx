@@ -33,6 +33,7 @@ function Login() {
             </Form.Group>
             <Form.Group className="mb-3">
               <Form.Control type="password" placeholder="Contraseña" />
+              <h1></h1>
             </Form.Group>
             <Button type="submit">Ingresar</Button>
           </Form>
