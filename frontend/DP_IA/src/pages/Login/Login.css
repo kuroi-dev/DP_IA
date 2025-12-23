@@ -8,6 +8,7 @@
 
 .colortest {
   border: red solid 2px;
+  max-width: 600px;
 }
 
 .limitCol{
@@ -26,4 +27,13 @@
 .login-form h2 {
   margin-bottom: 1.5rem;
   color: #333;
+}
+.flexDisplay{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.logoLogin
+{
+  max-width: 200px;
 }

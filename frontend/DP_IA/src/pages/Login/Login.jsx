@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./Login.css";
 import { Container, Row, Col, Form, Button } from "react-bootstrap"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import logoEmpresa from '../../assets/images/logo.png';
+
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -16,16 +18,19 @@ function Login() {
   return (
     <Container fluid className="login-container">
       <Row className="vh-100 align-items-center g-4">
-        <Col md={6}  className="text-end p-4 limitCol">
+        <Col  className="text-end p-4 limitCol colortest">
           <div>
-            <img src="" alt="Logo" className="img-fluid mb-3" />
-            <h1>Municipalidad de Villarrica</h1>
+            <div className="flexDisplay">
+              <img src={logoEmpresa} alt="Logo" className=" logoLogin" />
+              <h1>Municipalidad de Villarrica</h1>
+            </div>
+            
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dignissimos corporis mollitia, cum blanditiis nesciunt, odio explicabo iure sed quisquam veniam dolor debitis vero aliquam ut eum voluptatibus, itaque facilis.</p>
           </div>
         </Col>
 
 
-        <Col md={6}  className="d-flex justify-content-center limitCol">
+        <Col  className="d-flex justify-content-center colortest limitCol " >
           <Form className="login-form">
             <h2>Iniciar Sesión</h2>
             <Form.Group className="mb-3">
