@@ -10,9 +10,14 @@
   border: red solid 2px;
   max-width: 600px;
 }
+.limitCol0{
+  border: green solid 2px;
+  max-width: 1200px;
+}
 
 .limitCol{
   max-width: 600px;
+  border: blue solid 2px;
 }
 
 /* Caja del formulario */

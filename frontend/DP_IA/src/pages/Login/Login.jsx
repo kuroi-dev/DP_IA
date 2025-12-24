@@ -17,7 +17,7 @@ function Login() {
 
   return (
     <Container fluid className="login-container">
-      <Row className="vh-100 align-items-center g-4">
+      <Row className="vh-100 align-items-center g-0 limitCol0">
         <Col  className="text-end p-4 limitCol colortest">
           <div>
             <div className="flexDisplay">
