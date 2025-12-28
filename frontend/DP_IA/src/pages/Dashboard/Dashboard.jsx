@@ -1,11 +1,42 @@
-import React from "react";
-import "./Dashboard.css";
+import React, { useEffect, useState } from "react";   
+import "./Dashboard.css"; 
 
 function Dashboard() {
+  const [isVisible, setIsVisible] = useState(true);
+
+  const timeOutLogin = () => {
+    setTimeout(() => {
+      setIsVisible(false);
+    }, 5000); 
+  }
+
+  useEffect(() => {
+    timeOutLogin();
+  }, []);
+
   return (
     <div className="dashboard-container">
-      <h1>Bienvenido al Dashboard</h1>
-      <p>Aquí podrás acceder a tus datos y funcionalidades principales.</p>
+      <div
+        style={{
+          opacity: isVisible ? 1 : 0,
+          transition: 'opacity 3s ease-out',
+          visibility: isVisible ? 'visible' : 'hidden'
+        }}
+      >
+        <h1>Bienvenido Dashboard</h1>
+        <p>Aquí podrás acceder a tus datos y funcionalidades principales.</p>
+      </div>
+
+      <div
+        style={{
+          opacity: isVisible ? 0 : 1,
+          transition: 'opacity 3s ease-out',
+          visibility: isVisible ? 'hidden' : 'visible'
+        }}
+      >
+        <h1>Dashboard</h1>
+        <p>testing</p>
+      </div>
     </div>
   );
 }
