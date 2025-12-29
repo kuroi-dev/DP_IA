@@ -7,6 +7,7 @@ function Dashboard() {
   const timeOutLogin = () => {
     setTimeout(() => {
       setIsVisible(false);
+      console.log("Timeout completed, state updated.");
     }, 5000); 
   }
 
@@ -35,6 +36,7 @@ function Dashboard() {
         }}
       >
         <h1>Dashboard</h1>
+        <p>testing</p>
         <p>testing</p>
       </div>
     </div>
