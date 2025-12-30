@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Dashboard.css"; 
 import logo from '../../assets/images/logo.png';
 import logoUser from '../../assets/images/icoUser.webp';
+import logoPDF from '../../assets/images/pdf.webp';
 
 function Dashboard() {
   const [isVisible, setIsVisible] = useState(true);
@@ -42,12 +43,11 @@ function Dashboard() {
         className={`fade-transition ${isVisible ? 'fade-hidden' : 'fade-visible'}`}
       >
         <div className="contentPDFUp">
-          <div className="contentPDFIcon">
-
-          </div>
+          <button className="contentPDFIcon">
+            <img src={logoPDF} className="logoPDF" />
+          </button>
           <div className="contentPDFText">
-            <h1>Dashboard Principal</h1>
-            <p>Explora las diferentes secciones y herramientas disponibles.</p>
+            <p>Sube tu PDF para posteriormente procesarlo.<br /> Recuerda que el peso maximo es de 2500 megas.</p>
           </div>
           
         </div>
