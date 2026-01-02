@@ -131,3 +131,144 @@
   margin: 0;
   font-weight: lighter;
 } 
+
+
+/* contenedor de preview PDF */
+
+.contentPrePDFUp {
+  background: rgba(103, 103, 103, 0.5);   
+  height: 70vh;
+  width: 60vw;
+  border-radius: 10px;
+  border: rgb(58, 58, 58) solid 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+  display: flex;
+  padding: 25px;
+  justify-content: space-between;
+}
+.contentInterPrePdf {
+  height: 100%;
+  width: 47%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(53, 53, 53, 0.712);
+  border-radius: 20px;
+}
+
+.contentInterMenuPdf{
+  height: 100%;
+  width: 47%;
+  text-align: left;
+  display: block;
+  border: rgb(206, 206, 206) solid 5px;
+  border-radius: 20px;
+  padding: 15px 20px;
+}
+.contenIaData1 {
+  height: 10%;
+  width: 100%;
+  padding: 0px 5px;
+  text-align: center;
+}
+.contenIaData1 h2{
+  font-size: 28px;
+  color: rgb(206, 206, 206);
+}
+
+.contenIaData2 {
+  height: 15%;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.contenIaData2 p{
+  margin: 0;
+  font-size: 16px;
+  color: rgb(206, 206, 206);
+  margin-left: 8px;
+  margin-bottom: 4px;
+}
+
+.contenIaData2 select {
+  margin: 0;
+  width: 100%;
+  height: 30px;
+  color: #fff;
+  background-color: #444444;
+  border: none; 
+  border-radius: 5px;
+  padding: 0 2.5rem 0 0.75rem; /* espacio extra a la derecha */
+  font-size: 15px;
+
+  /* quita flecha nativa */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  /* agrega flecha personalizada */
+  background-image: url("data:image/svg+xml;utf8,\ <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'>\<path fill='white' d='M7 10l5 5 5-5H7z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 0.3rem center; /* aquí controlas la distancia al borde */
+  background-size: 2rem;
+
+
+}
+
+/* ocultar flecha en IE/Edge legacy */
+.contenIaData2 select::-ms-expand {
+  display: none;
+}
+
+
+
+.contenIaData3 {
+  height: 35%;
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.contenIaData3 p{
+  margin: 0;
+  font-size: 16px;
+  color: rgb(206, 206, 206);
+  margin-left: 8px;
+  margin-bottom: 5px;
+}
+
+.contenIaData3 textarea{
+  border-radius: 10px;
+  background-color: rgb(53, 53, 53);
+  height: 90%;
+  width: 100%;
+  margin: 0;
+  font-size: 16px;
+  color: rgb(182, 182, 182);
+  border: rgb(146, 146, 146) solid 2px;
+  padding: 10px;
+}
+.contenIaData4 {
+  display: flex;
+  height: 8%;
+  margin-top: 20px;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px 0px;
+}
+
+.btn1 , .btn2 {
+  border-radius: 5px;
+  border: none;
+  width: 35%;
+  color: white;
+  cursor: pointer;
+}
+.btn1 {
+  background-color: transparent;
+  border: #69AFFF solid 2px ;
+}
+.btn2 {
+  background-color: #AF6918;
+  border: #75460f solid 2px ;
+}
